@@ -13,7 +13,7 @@ source_if_exists () {
 # source from folder
 source_files(){
   local folder=$1
-  find "$folder" -type f | while read -r file; do
+  find "$DOTFILES" -type f -o -type l | while IFS= read -r file; do
     source_if_exists "$file"
   done
 }

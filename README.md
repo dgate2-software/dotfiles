@@ -9,9 +9,9 @@
 
 ````\
 
-cd; mkdir -p ./code/dotfiles && curl -#L https://github.com/juanmonsalveh/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,LICENSE,test.sh} -C ./code/dotfiles
+cd; mkdir -p ./code/dotfiles && curl -#L https://github.com/dgate2-software/dotfiles/tarball/main | tar -xzv --strip-components 1 --exclude={README.md,LICENSE,test.sh} -C ./code/dotfiles
 
-cd ./code/dotfiles && ./bootstrap.sh
+cd ./code/dotfiles && chmod +x bootstrap.sh && ./bootstrap.sh
 
 ```\
 \

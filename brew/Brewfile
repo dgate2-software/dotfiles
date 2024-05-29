@@ -24,6 +24,7 @@ brew "watch"
 # install Apps
 cask "google-chrome"
 cask "microsoft-edge"
+cask brave-browser
 
 cask "iterm2"
 cask "postman"
